@@ -1,3 +1,13 @@
+QUESTION 
+
+a. Insert details into all tables 3 records each
+b. Display all student details sorted on department wise.
+C. Display all employees.
+d. Display all staff details whose salary> 20000.
+e. Display student details whose percentage >80 and less than 90.
+
+ANSWER
+
 insert into department values(1001,'MCA');
 insert into department values(1002,'MBA');
 insert into department values(1003,'Adm-Office');
