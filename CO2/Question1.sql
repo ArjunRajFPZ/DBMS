@@ -1,3 +1,13 @@
+QUESTION
+
+Student (studid, name, class, city, total marks, percentage, deptid)
+Staff (staffid, name, deptid, designation, salary.city)
+Department (deptid, name)
+Company (compid, name, city, no of employees), name of employee as not null.
+Employee (empid, name, compid, designation, salary, city) & compid as foreign key
+
+Answer
+
 create table department(depid int primary key,name varchar(20));
 create table company(cmpid int primary key,name varchar(20),city varchar(20),no_emp int);
 create table employee(empid int primary key,name varchar(20),cmpid int,desig varchar(25),salary int,city varchar(20),foreign key(cmpid) references company(cmpid));
